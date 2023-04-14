@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  padding: 0 80px;
+}
+
+.home_page_main_section {
+  height: 91vh;
+  background-image: url("./assets/farmland.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-custom {
+  background: #d9ead3;
+  font-family: "Rubik", sans-serif;
+}
+.main_height {
+  height: 90vh;
+}
+.shop_item_wrapper {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.shop_item {
+  width: 20%;
+}
+
+.login_item_wrapper {
+  background: #b5d8a7;
+  width: 30%;
+}
+
+.login_img {
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
+}
